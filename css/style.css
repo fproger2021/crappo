@@ -19,7 +19,7 @@ body{
 
 .header{
     max-width: 1202px;
-    margin: 60px 120px;
+    padding: 60px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,6 +133,7 @@ body{
 .number{
     display: flex;
     margin-top: 202px;
+    margin-bottom: 100px;
     justify-content: space-between;
 }
 
@@ -156,5 +157,31 @@ body{
 .number__text p{
     color: var(--grey);
 }
+
+
+.trad-securiely{
+    text-align: center;
+}
+
+.trad-securiely h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.trad-securiely p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.calc{
+    margin-top: 64px;
+}
+
+.calc input{
+    font-size: 20px;
+}
+
+
+
 
 
